@@ -1,0 +1,143 @@
+/* login page */
+.bg-image{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+	opacity: 0.5;
+	z-index: 1;
+}
+.login{
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 20%;
+	min-width: 250px;
+	height: 200px;
+	box-shadow: green 0px 0px 10px;
+	z-index: 2;
+}
+.login input,button{
+	border: none;
+}
+#login-resp{
+	display: none;
+}
+/* admin page */
+.bg-image{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+	opacity: 0.5;
+}
+.menu-container{
+	position: absolute;
+	top: 2%;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 2;
+	width: 100%;
+	padding: 20px;
+	border: 1px solid grey;
+	box-shadow: grey 0px 0px 5px;
+}
+.btn-danger:hover{
+	box-shadow: red 0px 0px 10px;	
+}
+.btn-success:hover{
+	box-shadow: green 0px 0px 10px;	
+}
+.container-fluid{
+	height: 90vh;
+	max-height: 90vh;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.menu{
+	color: black;
+	position: fixed;
+	top: 20px;
+	left: 5px;
+	padding: 5px 0;
+	background: rgba(249, 249, 249, 1);
+	max-height: 90vh;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.form-control, .form-control:focus{
+	color: black;
+	background: rgba(249, 249, 249, 1);
+	border: none;
+	box-shadow: grey 0px 2.5px;
+}
+.form-control::placeholder{
+	color: black;
+	opacity: 1;
+}
+.table{
+	margin-left: auto;
+	width: 95%;
+}
+.admin-tr:hover{
+	background: rgba(249, 249, 249, 1);
+}
+.flexa{
+	color: grey !important;
+	cursor: pointer;
+}
+.flexa:hover{
+	color: lightblue !important;
+	cursor: pointer;
+}
+.alert{
+	z-index: 99;
+	position: absolute;
+	top: 15%;
+	left: 5px;
+	width: 20%;
+	display: none;
+}
+.btn-menu-sgp{
+	z-index: 100;
+}
+.btn-item{
+	background: lightgrey;
+}
+.calculadora{
+	position: fixed;
+	top: 25px;
+	left: 5px;
+}
+
+/* Custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* Custom scrollbar */
+/* admin page */

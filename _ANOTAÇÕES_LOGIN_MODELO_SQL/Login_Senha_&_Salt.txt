@@ -1,0 +1,11 @@
+ADMIN
+salt = S#@$G%5P4!@
+login = admin
+senha = admin
+salt+senha = hash = bc1decbe538cf2bc5c3f62fca66f30e3
+
+USER
+salt = S#@$G%5P4!@
+login = user
+senha = user
+salt+senha = hash = 7ff3da9bd1a47965c0d6499afeb2ccde
